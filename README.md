@@ -3,11 +3,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
 ```shell
-echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
-```
-
-```shell
-source ~/.bashrc
+echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
 ```
 
 ```shell
